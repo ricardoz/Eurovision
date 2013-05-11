@@ -1,0 +1,18 @@
+<properties>
+    <spring.version>3.0.7.RELEASE</spring.version>
+</properties>
+
+<dependencies>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <!-- abbreviated for all the dependencies -->
+    <artifactId>spring-(core,context,aop,aspects,tx,webmvc)</artifactId>
+    <version>${spring.version}</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-test</artifactId>
+    <version>${spring.version}</version>
+    <scope>test</scope>
+</dependency>
+</dependencies>
